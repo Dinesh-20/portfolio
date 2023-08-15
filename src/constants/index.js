@@ -8,6 +8,7 @@ import {
     html,
     css,
     reactjs,
+
     redux,
     tailwind,
     nodejs,
@@ -20,9 +21,15 @@ import {
     tesla,
     shopify,
     carrent,
+    blog,
+    theroundtable,
     jobit,
     tripguide,
     threejs,
+    tanks,
+    python,
+    django,
+    aws,
   } from "../assets";
   
   export const navLinks = [
@@ -73,28 +80,20 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Django",
+      icon: django,
+    },
+    {
+      name: "AWS",
+      icon: aws,
     },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -104,14 +103,36 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    
     {
       name: "docker",
       icon: docker,
     },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    
   ];
   
   const experiences = [
@@ -198,67 +219,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tanks Game",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Engage in thrilling tank battles! Unity-powered game with explosive action, strategic gameplay, and stunning visuals for an immersive armored warfare experience.",
       tags: [
         {
-          name: "react",
+          name: "Unity Engine",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "'C#'",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "css",
+        //   color: "pink-text-gradient",
+        // },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: tanks,
+      source_code_link: "https://github.com/Dinesh-20/tanks",
     },
     {
-      name: "Job IT",
+      name: "Blog Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Informative blog website offering diverse insights. Explore topics ranging from tech to lifestyle, enriched with engaging content.",
       tags: [
         {
-          name: "react",
+          name: "django",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: blog,
+      source_code_link: "https://github.com/Dinesh-20/djangoblog",
     },
     {
-      name: "Trip Guide",
+      name: "Chat Application",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Seamless chat app fostering real-time connections through user-friendly interface.",
       tags: [
         {
-          name: "nextjs",
+          name: "django",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: theroundtable,
+      source_code_link: "https://github.com/Dinesh-20/theroundtable",
     },
   ];
   
